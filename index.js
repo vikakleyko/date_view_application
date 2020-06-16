@@ -67,10 +67,6 @@ const getSecondsString = () => {
     }
 };
 
-console.log(date);
-
-// 'Сегодня Вторник, 4 февраля 2020 года, 21 час 5 минут 33 секунды'
-
 const dateString =
   "Сегодня " + currentDay + ", " +
   date.getDay() + " " + currentMonth + " " + date.getFullYear() + " года, " +
